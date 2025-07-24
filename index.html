@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+
+</head>
+
+<body >
+    <button class="chatbot-togler" id="chatbottogler">
+        <span class="material-symbols-outlined">mode_comment</span >
+        <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot" id="chatbot">
+        <header>
+            <h2>Chatbot</h2>
+            <span class="material-symbols-outlined" id="close-chatbot">close</span>
+        </header>
+        <ul class="chatbox" id="chatbox">
+            <!-- <li class="chat incoming">
+                <span class="material-symbols-outlined">smart_toy</span>
+                <p>👋 Halo! Aku Dipa <br>bot yang siap membantu kamu mencari informasi seputar SKCK (Surat Keterangan
+                    Catatan Kepolisian) <br> Ada yang bisa Dipa bantu hari ini?.</p>
+            </li> -->
+        </ul>
+        <div class="message-options" id="options">
+            <button class="message-btn" data-message="Halo">Halo</button>
+            <button class="message-btn" data-message="Hai">Hai</button>
+        </div>
+        <div class="chat-input">
+            <textarea id="message-input" placeholder="Enter a message..." required></textarea>
+            <span id="send-btn" class="material-symbols-outlined">➤</span>
+        </div>
+    </div>
+
+    <script src="chatbot.js"></script>
+    
+</body>
+
+</html>
